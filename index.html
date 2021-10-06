@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="Web Page Maker">
+
+<style type="text/css">
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: 'Arial';font-style: normal;font-weight: normal;}
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:404px; top:12px; width:459px; height:130px; z-index:0">
+<div class="wpmd">
+<div align=center><font class="ws28"><B>Bienvenue! </B></font></div>
+<div align=center><font color="#0000FF" class="ws28"><B>Congo Games</B></font><font class="ws28"><B> </B></font><font color="#FF0000" class="ws36"><B>Server</B></font></div>
+</div></div>
+
+<div id="image1" style="position:absolute; overflow:hidden; left:47px; top:27px; width:206px; height:74px; z-index:1"><img src="images/logo.png" alt="" title="" border=0 width=206 height=74></div>
+
+<div id="image2" style="position:absolute; overflow:hidden; left:46px; top:119px; width:298px; height:381px; z-index:2"><img src="images/logovrai.jpg" alt="" title="" border=0 width=298 height=381></div>
+
+<div id="image3" style="position:absolute; overflow:hidden; left:769px; top:274px; width:83px; height:83px; z-index:3"><img src="images/OIP (11).jpg" alt="" title="" border=0 width=83 height=83></div>
+
+<!--[if IE]><div id="text2" style="position:absolute; overflow:hidden; left:398px; top:147px; width:487px; height:67px; z-index:4; border:#808080 3px solid; background-color:#000080"><![endif]-->
+<!--[if !IE]>--><div id="text2" style="position:absolute; overflow:hidden; left:398px; top:147px; width:481px; height:61px; z-index:4; border:#808080 3px solid; background-color:#000080"><!--<![endif]-->
+
+<div class="wpmd">
+<div align=center><font color="#FFFFFF" class="ws36"><B>Login</B></font></div>
+</div></div>
+
+<!--[if IE]><div id="text3" style="position:absolute; overflow:hidden; left:398px; top:211px; width:487px; height:234px; z-index:5; border:#0000FF 3px solid"><![endif]-->
+<!--[if !IE]>--><div id="text3" style="position:absolute; overflow:hidden; left:398px; top:211px; width:481px; height:228px; z-index:5; border:#0000FF 3px solid"><!--<![endif]-->
+
+</div>
+
+<div style="position:absolute; top:526; left:193; z-index:6">
+<script language="JavaScript1.2">
+
+//configure message
+message="CongoGames Une Veritable Satisfaction Contact Admin +243972338505"
+//animate text in NS6? (0 will turn it off)
+ns6switch=1
+
+var ns6=document.getElementById&&!document.all
+
+mes=new Array();
+mes[0]=-1;
+mes[1]=-4;
+mes[2]=-7;
+mes[3]=-10;
+mes[4]=-7;
+mes[5]=-4;
+mes[6]=-1;
+num=0;
+num2=0;
+txt="";
+
+function jump0(){
+if (ns6&&!ns6switch){
+jump.innerHTML=message
+return
+}
+if(message.length > 6){
+for(i=0; i != message.length;i++){
+txt=txt+"<span style='position:relative;' id='n"+i+"'>"+message.charAt(i)+"</span>"};
+jump.innerHTML=txt;
+txt="";
+jump1a()
+}
+else{
+//alert("Your message is too short. 7 characters at least!")
+}
+}
+
+function jump1a(){
+nfinal=(document.getElementById)? document.getElementById("n0") : document.all.n0
+nfinal.style.left=-num2;
+if(num2 != 9){
+num2=num2+3;
+setTimeout("jump1a()",50)
+}
+else{
+jump1b()
+}
+}
+
+function jump1b(){
+nfinal.style.left=-num2;
+if(num2 != 0){num2=num2-3;
+setTimeout("jump1b()",50)
+}
+else{
+jump2()
+}
+}
+
+function jump2(){
+txt="";
+for(i=0;i != message.length;i++){
+if(i+num > -1 && i+num < 7){
+txt=txt+"<span style='position:relative;top:"+mes[i+num]+"'>"+message.charAt(i)+"</span>"
+}
+else{txt=txt+"<span>"+message.charAt(i)+"</span>"}
+}
+jump.innerHTML=txt;
+txt="";
+if(num != (-message.length)){
+num--;
+setTimeout("jump2()",50)}
+else{num=0;
+setTimeout("jump0()",50)}
+}
+</script>
+
+<font face="Arial" size=6 color=#008000><div id="jumpx"></div></font>
+
+<script>
+if (document.all||document.getElementById){
+jump=(document.getElementById)? document.getElementById("jumpx") : document.all.jumpx
+jump0()
+}
+</script>
+</div>
+<form name="form1" method="post" action="mailto:support@webpage-maker.com" enctype="text/plain" style="margin:0px">
+<input name="name" type="text" style="position:absolute;width:234px;left:490px;top:283px;z-index:8">
+<input name="subject" type="text" style="position:absolute;width:229px;left:494px;top:366px;z-index:9">
+<input name="Connexion" type="submit" value="Se Connectez" style="position:absolute;left:543px;top:405px;z-index:10">
+</form>
+
+<div id="text4" style="position:absolute; overflow:hidden; left:526px; top:236px; width:231px; height:42px; z-index:11">
+<div class="wpmd">
+<div><font face="@Yu Gothic UI Semilight" class="ws18"><B>Nom Utilisateur</B></font></div>
+<div><font face="@Yu Gothic UI Semilight" class="ws18"><B><BR></B></font></div>
+<div><BR></div>
+<div><BR></div>
+</div></div>
+
+<div id="text5" style="position:absolute; overflow:hidden; left:530px; top:318px; width:231px; height:42px; z-index:12">
+<div class="wpmd">
+<div><font face="@Yu Gothic UI Semilight" class="ws18"><B>Mot de Passe</B></font></div>
+<div><BR></div>
+<div><BR></div>
+</div></div>
+
+</body>
+</html>
